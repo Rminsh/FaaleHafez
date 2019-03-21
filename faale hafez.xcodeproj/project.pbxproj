@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C62284AE223F90B500EFDDC9 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62284AD223F90B500EFDDC9 /* ImageHelper.swift */; };
+		C62284B0223F936700EFDDC9 /* ViewControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62284AF223F936700EFDDC9 /* ViewControllerHelper.swift */; };
+		C62284B3223F941600EFDDC9 /* FaalStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62284B2223F941600EFDDC9 /* FaalStruct.swift */; };
+		C62D43BE223D3DC800F8E2BA /* faal.json in Resources */ = {isa = PBXBuildFile; fileRef = C62D43BD223D3DC800F8E2BA /* faal.json */; };
+		C62D43C3223D447D00F8E2BA /* FaalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62D43C2223D447D00F8E2BA /* FaalModel.swift */; };
 		C6832C0B21183E3900CF00D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6832C0A21183E3900CF00D1 /* AppDelegate.swift */; };
-		C6832C0D21183E3900CF00D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6832C0C21183E3900CF00D1 /* ViewController.swift */; };
+		C6832C0D21183E3900CF00D1 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6832C0C21183E3900CF00D1 /* MainVC.swift */; };
 		C6832C1021183E3900CF00D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6832C0E21183E3900CF00D1 /* Main.storyboard */; };
 		C6832C1221183E3B00CF00D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6832C1121183E3B00CF00D1 /* Assets.xcassets */; };
 		C6832C1521183E3B00CF00D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6832C1321183E3B00CF00D1 /* LaunchScreen.storyboard */; };
+		C6832C1D2118414300CF00D1 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = C6832C1C2118414300CF00D1 /* fonts */; };
+		C6832C20211847BE00CF00D1 /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6832C1F211847BE00CF00D1 /* ResultVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C62284AD223F90B500EFDDC9 /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		C62284AF223F936700EFDDC9 /* ViewControllerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHelper.swift; sourceTree = "<group>"; };
+		C62284B2223F941600EFDDC9 /* FaalStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaalStruct.swift; sourceTree = "<group>"; };
+		C62D43BD223D3DC800F8E2BA /* faal.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = faal.json; sourceTree = "<group>"; };
+		C62D43C2223D447D00F8E2BA /* FaalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FaalModel.swift; path = "faale hafez/Model/FaalModel.swift"; sourceTree = SOURCE_ROOT; };
 		C6832C0721183E3900CF00D1 /* faale hafez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "faale hafez.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6832C0A21183E3900CF00D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C6832C0C21183E3900CF00D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6832C0C21183E3900CF00D1 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		C6832C0F21183E3900CF00D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6832C1121183E3B00CF00D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6832C1421183E3B00CF00D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6832C1621183E3B00CF00D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6832C1C2118414300CF00D1 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		C6832C1F211847BE00CF00D1 /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C62284AC223F909C00EFDDC9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C62284AD223F90B500EFDDC9 /* ImageHelper.swift */,
+				C62284AF223F936700EFDDC9 /* ViewControllerHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		C62284B1223F940700EFDDC9 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				C62284B2223F941600EFDDC9 /* FaalStruct.swift */,
+			);
+			path = Struct;
+			sourceTree = "<group>";
+		};
+		C62D43BC223D3B6B00F8E2BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C62D43C2223D447D00F8E2BA /* FaalModel.swift */,
+			);
+			name = Model;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		C6832BFE21183E3900CF00D1 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +94,28 @@
 		C6832C0921183E3900CF00D1 /* faale hafez */ = {
 			isa = PBXGroup;
 			children = (
+				C62284B1223F940700EFDDC9 /* Struct */,
+				C62284AC223F909C00EFDDC9 /* Helper */,
+				C62D43BC223D3B6B00F8E2BA /* Model */,
+				C6832C1E211847A400CF00D1 /* ViewController */,
+				C6832C1C2118414300CF00D1 /* fonts */,
 				C6832C0A21183E3900CF00D1 /* AppDelegate.swift */,
-				C6832C0C21183E3900CF00D1 /* ViewController.swift */,
 				C6832C0E21183E3900CF00D1 /* Main.storyboard */,
 				C6832C1121183E3B00CF00D1 /* Assets.xcassets */,
+				C62D43BD223D3DC800F8E2BA /* faal.json */,
 				C6832C1321183E3B00CF00D1 /* LaunchScreen.storyboard */,
 				C6832C1621183E3B00CF00D1 /* Info.plist */,
 			);
 			path = "faale hafez";
+			sourceTree = "<group>";
+		};
+		C6832C1E211847A400CF00D1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6832C0C21183E3900CF00D1 /* MainVC.swift */,
+				C6832C1F211847BE00CF00D1 /* ResultVC.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +150,7 @@
 				TargetAttributes = {
 					C6832C0621183E3900CF00D1 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -122,9 +177,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C62D43BE223D3DC800F8E2BA /* faal.json in Resources */,
 				C6832C1521183E3B00CF00D1 /* LaunchScreen.storyboard in Resources */,
 				C6832C1221183E3B00CF00D1 /* Assets.xcassets in Resources */,
 				C6832C1021183E3900CF00D1 /* Main.storyboard in Resources */,
+				C6832C1D2118414300CF00D1 /* fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +192,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6832C0D21183E3900CF00D1 /* ViewController.swift in Sources */,
+				C62284AE223F90B500EFDDC9 /* ImageHelper.swift in Sources */,
+				C6832C0D21183E3900CF00D1 /* MainVC.swift in Sources */,
+				C62284B3223F941600EFDDC9 /* FaalStruct.swift in Sources */,
+				C62284B0223F936700EFDDC9 /* ViewControllerHelper.swift in Sources */,
+				C6832C20211847BE00CF00D1 /* ResultVC.swift in Sources */,
 				C6832C0B21183E3900CF00D1 /* AppDelegate.swift in Sources */,
+				C62D43C3223D447D00F8E2BA /* FaalModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -289,7 +351,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "lydia.ir.faale-hafez";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -307,7 +369,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "lydia.ir.faale-hafez";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
