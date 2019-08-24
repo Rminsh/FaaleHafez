@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -83,8 +83,8 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KyG-Lh-HRq">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xSh-ZK-NjY">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="165"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="xSh-ZK-NjY">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="236"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="غزل شماره ۱۲" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h3C-g0-N2Q">
                                                 <rect key="frame" x="149.5" y="0.0" width="76" height="65.5"/>
@@ -93,19 +93,30 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="شعر و غزل" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dE2-my-LoJ">
-                                                <rect key="frame" x="20" y="65.5" width="335" height="65.5"/>
+                                                <rect key="frame" x="20" y="77.5" width="335" height="65.5"/>
                                                 <fontDescription key="fontDescription" name="Shekasteh_Beta" family="Shekasteh_Beta" pointSize="24"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="معنی" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWL-6d-yMf">
-                                                <rect key="frame" x="20" y="131" width="335" height="34"/>
+                                                <rect key="frame" x="20" y="155" width="335" height="34"/>
                                                 <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="20"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ve-pw-dm1">
+                                                <rect key="frame" x="123" y="201" width="129" height="35"/>
+                                                <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="14"/>
+                                                <inset key="imageEdgeInsets" minX="-12" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="به اشتراک گذاری" image="ic_share">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="sharePressed:" destination="MWh-dc-rvC" eventType="touchUpInside" id="ye5-CH-7b5"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="nWL-6d-yMf" firstAttribute="leading" secondItem="xSh-ZK-NjY" secondAttribute="leading" constant="20" id="7KB-W6-lZo"/>
@@ -116,7 +127,7 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="xSh-ZK-NjY" secondAttribute="bottom" id="Gel-u1-EPa"/>
+                                    <constraint firstAttribute="bottom" secondItem="xSh-ZK-NjY" secondAttribute="bottom" constant="12" id="Gel-u1-EPa"/>
                                     <constraint firstItem="xSh-ZK-NjY" firstAttribute="leading" secondItem="KyG-Lh-HRq" secondAttribute="leading" id="J1g-rS-mQh"/>
                                     <constraint firstItem="xSh-ZK-NjY" firstAttribute="centerX" secondItem="KyG-Lh-HRq" secondAttribute="centerX" id="X50-v2-ukh"/>
                                     <constraint firstAttribute="trailing" secondItem="xSh-ZK-NjY" secondAttribute="trailing" id="u9F-KR-EEA"/>
@@ -160,6 +171,7 @@
     <resources>
         <image name="ic_back" width="33" height="55"/>
         <image name="ic_kashi" width="2399" height="3500"/>
+        <image name="ic_share" width="35" height="35"/>
         <image name="shamseh" width="682" height="682"/>
     </resources>
 </document>

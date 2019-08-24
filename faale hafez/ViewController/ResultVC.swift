@@ -19,6 +19,11 @@ class ResultVC: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func sharePressed(_ sender: Any) {
+        let poemDetail = "\(faalTitle.text ?? "")\n\n\(faalPoem.text ?? "")\n\n\(faalInterpretation.text ?? "")"
+        shareText(text: poemDetail, viewController: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         loadJson(filename: "faal")
